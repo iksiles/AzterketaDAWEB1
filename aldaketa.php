@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         ]
     );
     // irakurri.php-ra bialdu
-    header('Location: irakurri.php');
+    header('Location: index.php');
 } else {
     // Preparatu SELECT
     $miConsulta = $miPDO->prepare('SELECT * FROM libros WHERE codigo = :codigo;');

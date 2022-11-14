@@ -16,5 +16,5 @@ $miConsulta->execute([
     codigo => $codigo
 ]);
 // irakurri.php-era bialdu
-header('Location: irakurri.php');
+header('Location: index.php');
 ?>
